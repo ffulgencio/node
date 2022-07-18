@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Francis Fulgencio",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.3"
+  },
+  "scripts": {
+    "test":"jest",
+    "dev": "node index.js"
+  }
+}
