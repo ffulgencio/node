@@ -1,7 +1,7 @@
 name: Integracion continua con node.js
 
 on:
-  pull_request:
+  push:
     branches: [master]
 
 jobs:
