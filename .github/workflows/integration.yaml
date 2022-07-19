@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 16
       - name: running npm ci
-      - run: npm ci
+        run: npm ci
       - run: node --version
       - run: npm test
       - run: npm run dev
